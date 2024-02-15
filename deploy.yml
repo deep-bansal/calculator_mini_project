@@ -21,4 +21,4 @@
       when: ansible_facts['os_family'] == "Debian"
 
     - name: Running container
-      shell: /usr/local/bin/docker run -it -d --name deep04bansal/calculator_project deep04bansal/calculator_project
+      shell: /usr/local/bin/docker run -it -d --name calculator_project deep04bansal/calculator_project
